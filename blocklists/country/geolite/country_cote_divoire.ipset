@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_cote_divoire_ipset
 #   @uuid           ee2198b1-ddcb-3dee-969d-90639e4261e8
-#   @updated        Wed 20 Nov 2024 12:36:48 AM UTC
+#   @updated        Thu 21 Nov 2024 03:04:39 AM UTC
 #   @entries        1,784,066 ips
 #                   442 subnets
 #                   442 lines

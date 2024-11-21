@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             continent_asia_ipset
 #   @uuid           c6ce07f2-68b5-3cfb-b63e-93c6c0709f36
-#   @updated        Wed 20 Nov 2024 12:35:37 AM UTC
+#   @updated        Thu 21 Nov 2024 02:56:06 AM UTC
 #   @entries        31,215,102 ips
 #                   12,043 subnets
 #                   12,043 lines
