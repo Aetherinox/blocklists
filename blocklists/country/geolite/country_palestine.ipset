@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_palestine_ipset
 #   @uuid           3209fbe8-87bf-3d1b-babb-83c027f612c8
-#   @updated        Thu 21 Nov 2024 03:08:58 AM UTC
+#   @updated        Fri 22 Nov 2024 12:50:08 AM UTC
 #   @entries        845,621 ips
 #                   433 subnets
 #                   433 lines

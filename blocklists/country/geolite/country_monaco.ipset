@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_monaco_ipset
 #   @uuid           ee98ae04-5b04-38ca-a6c5-f223aa585461
-#   @updated        Thu 21 Nov 2024 03:07:52 AM UTC
+#   @updated        Fri 22 Nov 2024 12:49:54 AM UTC
 #   @entries        79,687 ips
 #                   261 subnets
 #                   261 lines

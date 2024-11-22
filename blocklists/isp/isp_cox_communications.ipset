@@ -5,10 +5,10 @@
 #   @source         None
 #   @id             isp_cox_communications_ipset
 #   @uuid           f49f16d6-6f3c-3f66-8c2c-97667aa69669
-#   @updated        Thu 21 Nov 2024 08:20:39 PM UTC
+#   @updated        Fri 22 Nov 2024 12:44:58 AM UTC
 #   @entries        23,647,968 ips
-#                   5,690 subnets
-#                   5,738 lines
+#                   5,693 subnets
+#                   5,741 lines
 #   @asn            AS31771, AS22773, AS13432, AS6298, AS12064, 
 #                   AS13493, AS15218, AS22318, AS25904, AS26204
 #   @expires        6 hours
@@ -4132,6 +4132,9 @@
 2001:578:8c00::/40
 2001:578:8d00::/40
 2001:578:8e00::/40
+2001:578:9400::/40
+2001:578:9500::/40
+2001:578:9600::/40
 2001:579::/37
 2001:579::/46
 2001:579:4::/46
