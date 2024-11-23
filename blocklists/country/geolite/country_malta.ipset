@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_malta_ipset
 #   @uuid           9a900e61-2688-3cdf-8e4e-c2c1009fc2f8
-#   @updated        Fri 22 Nov 2024 12:49:57 AM UTC
-#   @entries        695,752 ips
-#                   479 subnets
-#                   479 lines
+#   @updated        Sat 23 Nov 2024 12:47:46 AM UTC
+#   @entries        695,496 ips
+#                   478 subnets
+#                   478 lines
 #   @country        Malta (MT)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -290,7 +290,8 @@
 188.172.64.0/19
 192.136.7.0/24
 192.253.254.0/24
-193.24.232.0/22
+193.24.232.0/23
+193.24.234.0/24
 193.28.2.0/23
 193.28.58.0/23
 193.29.36.0/23
@@ -474,8 +475,6 @@
 2a0c:3b80:4d54::/48
 2a0c:3b80:6d74::/48
 2a0c:9a40:95b8:7000::/52
-2a0c:9e06:163::/48
-2a0c:9e06:187::/48
 2a0c:c280::/29
 2a0d:1c40::/29
 2a0d:3344:1fc0::/42
