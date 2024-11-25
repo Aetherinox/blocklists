@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_belize_ipset
 #   @uuid           ae13f343-a55e-3bcc-862e-5f5bdffa878d
-#   @updated        Sun 24 Nov 2024 12:40:14 AM UTC
+#   @updated        Mon 25 Nov 2024 12:47:40 AM UTC
 #   @entries        129,769 ips
 #                   353 subnets
 #                   353 lines
