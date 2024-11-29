@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_malta_ipset
 #   @uuid           9a900e61-2688-3cdf-8e4e-c2c1009fc2f8
-#   @updated        Thu 28 Nov 2024 12:44:26 AM UTC
+#   @updated        Fri 29 Nov 2024 12:43:37 AM UTC
 #   @entries        696,518 ips
 #                   478 subnets
 #                   478 lines
