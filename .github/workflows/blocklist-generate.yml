@@ -89,6 +89,8 @@ jobs:
     blocklist-setup:
         name: >-
           📦 Setup
+        runs-on: ubuntu-latest
+        # runs-on: apollo-x64
         steps:
 
             - name: "✅ Start"
