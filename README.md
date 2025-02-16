@@ -90,27 +90,27 @@ These blocklists give you more control over what 3rd party services can access y
 
 | Set | Description | Severity | View |
 | --- | --- | --- | --- |
-| `02_privacy_general.ipset` | <sub>Servers which scan ports for data collection and research purposes. List includes [Censys](https://censys.io), [Shodan](https://www.shodan.io/), [Project25499](https://blogproject25499.wordpress.com/), [InternetArchive](https://archive.org/) </sub> | ★★★★⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/02_privacy_general.ipset) |
-| `02_privacy_ahrefs.ipset` | <sub>Ahrefs SEO and services</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_ahrefs.ipset) |
-| `02_privacy_amazon_aws.ipset` | <sub>Amazon AWS</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_amazon_aws.ipset) |
-| `02_privacy_amazon_ec2.ipset` | <sub>Amazon EC2</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_amazon_ec2.ipset) |
-| `02_privacy_applebot.ipset` | <sub>Apple Bots</sub> | ★★★⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/02_privacy_applebot.ipset) |
-| `02_privacy_bing.ipset` | <sub>Microsoft Bind and Bing Crawlers / Bots</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/02_privacy_bing.ipset) |
-| `02_privacy_bunnycdn.ipset` | <sub>Bunny CDN</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/02_privacy_bunnycdn.ipset) |
-| `02_privacy_cloudflarecdn.ipset` | <sub>Cloudflare CDN</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/02_privacy_cloudflarecdn.ipset) |
-| `02_privacy_cloudfront.ipset` | <sub>Cloudfront DNS</sub> | ★⚝⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/02_privacy_cloudfront.ipset) |
-| `02_privacy_duckduckgo.ipset` | <sub>DuckDuckGo Web Crawlers / Bots</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/02_privacy_duckduckgo.ipset) |
-| `02_privacy_facebook.ipset` | <sub>Facebook Bots & Trackers</sub> | ★★★⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/02_privacy_facebook.ipset) |
-| `02_privacy_fastly.ipset` | <sub>Fastly CDN</sub> | ★⚝⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_fastly.ipset) |
-| `02_privacy_google.ipset` | <sub>Google Crawlers</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_google.ipset) |
-| `02_privacy_pingdom.ipset` | <sub>Pingdom Monitoring Service</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_pingdom.ipset) |
-| `02_privacy_rssapi.ipset` | <sub>RSS API Reader</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_rssapi.ipset) |
-| `02_privacy_stripe_api.ipset` | <sub>Stripe Payment Gateway API</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_stripe_api.ipset) |
-| `02_privacy_stripe_armada_gator.ipset` | <sub>Stripe Armada Gator</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_stripe_armada_gator.ipset) |
-| `02_privacy_stripe_webhooks.ipset` | <sub>Stripe Webhook Service</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_stripe_webhooks.ipset) |
-| `02_privacy_telegram.ipset` | <sub>Telegram Trackers and Crawlers</sub> | ★★★⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_telegram.ipset) |
-| `02_privacy_uptimerobot.ipset` | <sub>Uptime Robot Monitoring Service</sub> | ★⚝⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_uptimerobot.ipset) |
-| `02_privacy_webpagetest.ipset` | <sub>Webpage Test Services</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/02_privacy_webpagetest.ipset) |
+| `privacy_general.ipset` | <sub>Servers which scan ports for data collection and research purposes. List includes [Censys](https://censys.io), [Shodan](https://www.shodan.io/), [Project25499](https://blogproject25499.wordpress.com/), [InternetArchive](https://archive.org/) </sub> | ★★★★⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_general.ipset) |
+| `privacy_ahrefs.ipset` | <sub>Ahrefs SEO and services</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/privacy/privacy_ahrefs.ipset) |
+| `privacy_amazon_aws.ipset` | <sub>Amazon AWS</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_amazon_aws.ipset) |
+| `privacy_amazon_ec2.ipset` | <sub>Amazon EC2</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_amazon_ec2.ipset) |
+| `privacy_applebot.ipset` | <sub>Apple Bots</sub> | ★★★⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_applebot.ipset) |
+| `privacy_bing.ipset` | <sub>Microsoft Bind and Bing Crawlers / Bots</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_bing.ipset) |
+| `privacy_bunnycdn.ipset` | <sub>Bunny CDN</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_bunnycdn.ipset) |
+| `privacy_cloudflarecdn.ipset` | <sub>Cloudflare CDN</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_cloudflarecdn.ipset) |
+| `privacy_cloudfront.ipset` | <sub>Cloudfront DNS</sub> | ★⚝⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_cloudfront.ipset) |
+| `privacy_duckduckgo.ipset` | <sub>DuckDuckGo Web Crawlers / Bots</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_duckduckgo.ipset) |
+| `privacy_facebook.ipset` | <sub>Facebook Bots & Trackers</sub> | ★★★⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_facebook.ipset) |
+| `privacy_fastly.ipset` | <sub>Fastly CDN</sub> | ★⚝⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_fastly.ipset) |
+| `privacy_google.ipset` | <sub>Google Crawlers</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_google.ipset) |
+| `privacy_pingdom.ipset` | <sub>Pingdom Monitoring Service</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_pingdom.ipset) |
+| `privacy_rssapi.ipset` | <sub>RSS API Reader</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_rssapi.ipset) |
+| `privacy_stripe_api.ipset` | <sub>Stripe Payment Gateway API</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_stripe_api.ipset) |
+| `privacy_stripe_armada_gator.ipset` | <sub>Stripe Armada Gator</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_stripe_armada_gator.ipset) |
+| `privacy_stripe_webhooks.ipset` | <sub>Stripe Webhook Service</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_stripe_webhooks.ipset) |
+| `privacy_telegram.ipset` | <sub>Telegram Trackers and Crawlers</sub> | ★★★⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_telegram.ipset) |
+| `privacy_uptimerobot.ipset` | <sub>Uptime Robot Monitoring Service</sub> | ★⚝⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_uptimerobot.ipset) |
+| `privacy_webpagetest.ipset` | <sub>Webpage Test Services</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_webpagetest.ipset) |
 
 <br />
 
@@ -182,5 +182,5 @@ This section explains how to use these blocklists within particular software tit
 This repository contains a set of ipsets which are automatically updated every `6 hours`. You may add these sets to your ConfigServer Firewall `/etc/csf/csf.blocklists` with the following new line:
 
 ```
-csf|86400|0|https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/01_master.ipset
+csf|86400|0|https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/master.ipset
 ```
