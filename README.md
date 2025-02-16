@@ -164,7 +164,7 @@ This section includes blocklists which you can import into the [bittorrent clien
 <br />
 
 | Set | Description | Severity | View | Website |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | `bt-transmission` | <sub>A large blocklist for the BitTorrent client [Transmission](https://transmissionbt.com/)</sub> | ★★★★★ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/transmission/blocklist.ipset) | [view](https://transmissionbt.com/) |
 
 <br />
