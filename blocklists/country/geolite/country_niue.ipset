@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_niue_ipset
 #   @uuid           cf7fa765-afd4-319c-b9f8-91f32a47ff3c
-#   @updated        Fri 29 Nov 2024 12:43:44 AM UTC
-#   @entries        1,667 ips
-#                   97 subnets
-#                   97 lines
+#   @updated        Sun Feb 16 08:34:29 UTC 2025
+#   @entries        643 ips
+#                   96 subnets
+#                   96 lines
 #   @country        Niue (NU)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -65,7 +65,6 @@
 172.225.230.208/28
 172.225.244.144/28
 194.50.99.171/32
-202.59.4.0/22
 2001:df0:8c::/48
 2606:40:1050::/44
 2606:40:1060::/44
@@ -89,6 +88,7 @@
 2a04:4e41:2a:1400::/56
 2a04:4e41:41::/64
 2a04:4e41:41:1000::/56
+2a04:4e41:301::/48
 2a04:4e41:401a:9000::/52
 2a04:4e41:402a:9000::/52
 2a04:4e41:403a:9000::/52
@@ -97,6 +97,8 @@
 2a04:4e41:406a:9000::/52
 2a04:4e41:407a:9000::/52
 2a04:4e41:408a:9000::/52
+2a04:4e41:5e1a::/48
+2a04:4e41:6805::/48
 2a05:dfc1:5ab2::/48
 2a07:d887:a800::/40
 2a09:bac1:5700::/64
@@ -113,7 +115,4 @@
 2a0a:6044:f210::/45
 2a0a:6044:f218::/46
 2a0a:6044:f21c::/48
-2a0c:3b80:4e55::/48
-2a0c:3b80:6e75::/48
 2a0c:9a40:95ba::/52
-2a14:1c0:6000::/37
