@@ -134,7 +134,8 @@ jobs:
     blocklist-generate:
         name: >-
           📋 Generate › Blocklist
-        runs-on: apollo-x64
+        runs-on: ubuntu-latest
+        # runs-on: apollo-x64
         needs: [ blocklist-setup ]
         steps:
 
@@ -528,7 +529,8 @@ jobs:
     blocklist-commit:
       name: >-
         📋 Commit
-      runs-on: apollo-x64
+      runs-on: ubuntu-latest
+      # runs-on: apollo-x64
       needs: [ blocklist-setup, blocklist-generate ]
       steps:
 
