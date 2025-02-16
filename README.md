@@ -159,13 +159,13 @@ This section includes blocklists which you can import into the [bittorrent clien
   - https://github.com/Aetherinox/blocklists/raw/main/blocklists/transmission/blocklist.gz
 - Open your Transmission application; depending on the version you run, do ONE of the follow two choices:
   - Paste the link to Transmission > Settings > Peers > Blocklist
-  - Paste the link to Transmission > Edit > Preferences > Privacy > Enable blocklist
+  - Paste the link to Transmission > Edit > Preferences > Privacy > Enable Blocklist
 
 <br />
 
-| Set | Description | Severity | View |
+| Set | Description | Severity | View | Website |
 | --- | --- | --- | --- |
-| `bt-transmission` | <sub>A large blocklist for the BitTorrent client [Transmission](https://transmissionbt.com/)</sub> | ★★★★★ | [view](https://transmissionbt.com/) |
+| `bt-transmission` | <sub>A large blocklist for the BitTorrent client [Transmission](https://transmissionbt.com/)</sub> | ★★★★★ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/transmission/blocklist.ipset) | [view](https://transmissionbt.com/) |
 
 <br />
 
