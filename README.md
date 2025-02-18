@@ -62,7 +62,7 @@ This rating is calculated once a day.
 <br />
 
 # Main Lists
-These are the primary lists that most people will be interested in. They contain a large list of IP addresses which have been reported in the last 360 days for abusive behavior. These statistics are gathered from numerous websites such as [AbuseIPDB](https://www.abuseipdb.com/) and [IPThreat](https://ipthreat.net/). IPs on this list have a 70-100% confidency level of engaging in the following:
+These are the primary lists that most people will be interested in. They contain a large list of IP addresses which have been reported recently for abusive behavior. These statistics are gathered from numerous websites such as [AbuseIPDB](https://www.abuseipdb.com/) and [IPThreat](https://ipthreat.net/). IPs on this list have a 100% confidence level, which means you should get no false-positives from any of the IPs in these lists. IP addresses in these lists have been flagged for engaging in the following:
 
 - SSH Bruteforcing
 - Port Scanning
@@ -182,5 +182,5 @@ This section explains how to use these blocklists within particular software tit
 This repository contains a set of ipsets which are automatically updated every `6 hours`. You may add these sets to your ConfigServer Firewall `/etc/csf/csf.blocklists` with the following new line:
 
 ```
-csf|86400|0|https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/master.ipset
+csf|1000000|0|https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/master.ipset
 ```
