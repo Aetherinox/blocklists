@@ -98,13 +98,13 @@ These blocklists give you more control over what 3rd party services can access y
 | `privacy_ahrefs.ipset` | <sub>Ahrefs SEO and services</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/privacy/privacy_ahrefs.ipset) |
 | `privacy_amazon_aws.ipset` | <sub>Amazon AWS</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_amazon_aws.ipset) |
 | `privacy_amazon_ec2.ipset` | <sub>Amazon EC2</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_amazon_ec2.ipset) |
-| `privacy_applebot.ipset` | <sub>Apple Bots</sub> | ★★★⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_applebot.ipset) |
-| `privacy_bing.ipset` | <sub>Microsoft Bind and Bing Crawlers / Bots</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_bing.ipset) |
-| `privacy_bunnycdn.ipset` | <sub>Bunny CDN</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_bunnycdn.ipset) |
-| `privacy_cloudflarecdn.ipset` | <sub>Cloudflare CDN</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_cloudflarecdn.ipset) |
-| `privacy_cloudfront.ipset` | <sub>Cloudfront DNS</sub> | ★⚝⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_cloudfront.ipset) |
-| `privacy_duckduckgo.ipset` | <sub>DuckDuckGo Web Crawlers / Bots</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_duckduckgo.ipset) |
-| `privacy_facebook.ipset` | <sub>Facebook Bots & Trackers</sub> | ★★★⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/blocklists/privacy/privacy_facebook.ipset) |
+| `privacy_applebot.ipset` | <sub>Apple Bots</sub> | ★★★⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_applebot.ipset) |
+| `privacy_bing.ipset` | <sub>Microsoft Bind and Bing Crawlers / Bots</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_bing.ipset) |
+| `privacy_bunnycdn.ipset` | <sub>Bunny CDN</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_bunnycdn.ipset) |
+| `privacy_cloudflarecdn.ipset` | <sub>Cloudflare CDN</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_cloudflarecdn.ipset) |
+| `privacy_cloudfront.ipset` | <sub>Cloudfront DNS</sub> | ★⚝⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_cloudfront.ipset) |
+| `privacy_duckduckgo.ipset` | <sub>DuckDuckGo Web Crawlers / Bots</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_duckduckgo.ipset) |
+| `privacy_facebook.ipset` | <sub>Facebook Bots & Trackers</sub> | ★★★⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_facebook.ipset) |
 | `privacy_fastly.ipset` | <sub>Fastly CDN</sub> | ★⚝⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_fastly.ipset) |
 | `privacy_google.ipset` | <sub>Google Crawlers</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_google.ipset) |
 | `privacy_pingdom.ipset` | <sub>Pingdom Monitoring Service</sub> | ★★⚝⚝⚝ | [view](https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/privacy/privacy_pingdom.ipset) |
