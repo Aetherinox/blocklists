@@ -5,14 +5,13 @@
 #   @source         https://api.fastly.com/public-ip-list
 #   @id             privacy_fastly_ipset
 #   @uuid           bc39e07e-ba7f-3724-bb6a-d250b2d443ff
-#   @updated        Tue May  6 00:31:05 UTC 2025
+#   @updated        Tue May  6 12:14:42 UTC 2025
 #   @entries        304128 ips
 #                   21 subnets
 #                   21 lines
 #   @expires        6 hours
 #   @category       Privacy
 #
-
 #   This list contains ip addresses associated with Fastly.
 #
 #   Fastly is classified as a "content delivery network" (CDN), much like Cloudflare. Fastly allows
