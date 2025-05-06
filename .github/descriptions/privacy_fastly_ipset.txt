@@ -1,4 +1,3 @@
-
 #   This list contains ip addresses associated with Fastly.
 #
 #   Fastly is classified as a "content delivery network" (CDN), much like Cloudflare. Fastly allows
