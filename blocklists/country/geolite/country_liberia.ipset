@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_liberia_ipset
 #   @uuid           b9197ee4-93bc-3653-ad0a-9d1fb7a47b91
-#   @updated        Wed May  7 00:24:56 UTC 2025
+#   @updated        Thu May  8 00:25:57 UTC 2025
 #   @entries        42681 ips
 #                   196 subnets
 #                   196 lines
