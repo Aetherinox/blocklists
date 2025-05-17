@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_liberia_ipset
 #   @uuid           b9197ee4-93bc-3653-ad0a-9d1fb7a47b91
-#   @updated        Fri May 16 00:26:10 UTC 2025
-#   @entries        42681 ips
-#                   195 subnets
-#                   195 lines
+#   @updated        Sat May 17 00:24:31 UTC 2025
+#   @entries        43193 ips
+#                   197 subnets
+#                   197 lines
 #   @country        Liberia (LR)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -83,6 +83,8 @@
 157.167.103.0/24
 162.120.210.12/32
 162.120.214.13/32
+164.137.126.0/24
+164.137.234.0/24
 164.160.8.0/26
 164.160.8.64/27
 164.160.8.96/28

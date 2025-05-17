@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_botswana_ipset
 #   @uuid           8977937d-0f99-3a4d-8807-1bf396cd82f9
-#   @updated        Fri May 16 00:25:36 UTC 2025
+#   @updated        Sat May 17 00:24:01 UTC 2025
 #   @entries        186052 ips
 #                   232 subnets
 #                   232 lines
