@@ -5,7 +5,7 @@
 #   @source         None
 #   @id             isp_sprint_ipset
 #   @uuid           2bdab4b3-4e73-39a5-887f-d74798d7c94e
-#   @updated        Sat May 17 00:33:23 UTC 2025
+#   @updated        Sat May 17 12:12:56 UTC 2025
 #   @entries        0 ips
 #                   0 subnets
 #                   125 lines
@@ -14,7 +14,7 @@
 #                   AS2014, AS2050, AS2053, AS206963, AS21288, 
 #                   AS2938, AS2942, AS2959, AS2981, AS3647, 
 #                   AS3648, AS3649, AS3650, AS3651, AS3652
-#   @expires        6 hours
+#   @expires        
 #   @category       Uncategorized
 #
 #   No description provided
