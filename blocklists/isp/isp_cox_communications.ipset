@@ -2,10 +2,10 @@
 #   🧱 Firewall Blocklist - blocklists/isp/isp_cox_communications.ipset
 #
 #   @url            https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/isp/isp_cox_communications.ipset
-#   @source         None
+#   @source         
 #   @id             isp_cox_communications_ipset
 #   @uuid           f49f16d6-6f3c-3f66-8c2c-97667aa69669
-#   @updated        Sun May 18 00:22:48 UTC 2025
+#   @updated        Sun May 18 00:35:32 UTC 2025
 #   @entries        0 ips
 #                   0 subnets
 #                   50 lines
