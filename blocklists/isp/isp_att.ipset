@@ -5,12 +5,12 @@
 #   @source         whois.radb.net
 #   @id             isp_att_ipset
 #   @uuid           c2a8f492-a17f-36a3-821d-aae3d9b8669e
-#   @updated        Sun May 18 00:35:26 UTC 2025
+#   @updated        Sun May 18 12:11:58 UTC 2025
 #   @entries        0 ips
 #                   0 subnets
 #                   5 lines
 #   @asn            AS7018, 
-#   @expires        
+#   @expires        7 days
 #   @category       Internet Service Provider (ISP)
 #
 #   AT&T Internet (Internet Service Provider)
