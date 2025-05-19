@@ -5,11 +5,11 @@
 #   @source         None
 #   @id             privacy_nintendo_ipset
 #   @uuid           e6901bfd-d281-300f-9638-2b2d85345d08
-#   @updated        Mon May 19 00:34:18 UTC 2025
+#   @updated        Mon May 19 12:13:36 UTC 2025
 #   @entries        3927 ips
 #                   44 subnets
 #                   45 lines
-#   @expires        
+#   @expires        6 hours
 #   @category       Uncategorized
 #
 #   No description provided

@@ -5,12 +5,12 @@
 #   @source         https://raw.githubusercontent.com/Aetherinox/dev-kw/main/blocklists/02_privacy_general.ipset
 #   @id             privacy_general_ipset
 #   @uuid           6a2bb2a1-edca-33d8-9dd5-75c3ec3c6ef7
-#   @updated        Mon May 19 00:33:40 UTC 2025
+#   @updated        Mon May 19 12:13:05 UTC 2025
 #   @entries        125345 ips
 #                   73 subnets
 #                   243 lines
 #   @expires        6 hours
-#   @category       
+#   @category       Privacy
 #
 #   This is a static list of abusive IP addresses provided by https://github.com/Aetherinox/csf-firewall
 #
