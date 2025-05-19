@@ -5,11 +5,11 @@
 #   @source         None
 #   @id             privacy_electronicarts_ign_ipset
 #   @uuid           7f947bfc-e01e-322a-8d36-89a94ad0bfba
-#   @updated        Mon May 19 00:21:46 UTC 2025
+#   @updated        Mon May 19 00:34:17 UTC 2025
 #   @entries        69720 ips
 #                   42 subnets
 #                   42 lines
-#   @expires        
+#   @expires        6 hours
 #   @category       Uncategorized
 #
 #   No description provided

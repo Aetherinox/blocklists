@@ -2,10 +2,10 @@
 #   🧱 Firewall Blocklist - blocklists/isp/isp_cablevision.ipset
 #
 #   @url            https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/isp/isp_cablevision.ipset
-#   @source         whois.radb.net
+#   @source         
 #   @id             isp_cablevision_ipset
 #   @uuid           6de5a872-560e-3446-914e-b3818263d0c9
-#   @updated        Mon May 19 00:21:54 UTC 2025
+#   @updated        Mon May 19 00:34:26 UTC 2025
 #   @entries        0 ips
 #                   0 subnets
 #                   15 lines

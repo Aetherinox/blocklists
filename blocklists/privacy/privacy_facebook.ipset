@@ -5,13 +5,13 @@
 #   @source         https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/
 #   @id             privacy_facebook_ipset
 #   @uuid           79b67631-cfc1-3ad8-afab-92ac9e78061a
-#   @updated        Mon May 19 00:21:34 UTC 2025
+#   @updated        Mon May 19 00:33:47 UTC 2025
 #   @entries        0 ips
 #                   0 subnets
 #                   5 lines
 #   @asn            AS32934, 
 #   @expires        6 hours
-#   @category       Privacy
+#   @category       
 #
 #   FacebookBot crawls public web pages to improve language models for our speech recognition technology.
 #   Facebook claims to use polite web crawling protocols that respect standard robots.txt rules.
