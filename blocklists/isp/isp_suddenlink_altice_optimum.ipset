@@ -2,10 +2,10 @@
 #   🧱 Firewall Blocklist - blocklists/isp/isp_suddenlink_altice_optimum.ipset
 #
 #   @url            https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/isp/isp_suddenlink_altice_optimum.ipset
-#   @source         
+#   @source         None
 #   @id             isp_suddenlink_altice_optimum_ipset
 #   @uuid           10b6335a-b4db-3e3e-a5f9-80a82a8db3f9
-#   @updated        Sun May 18 12:11:59 UTC 2025
+#   @updated        Mon May 19 00:21:54 UTC 2025
 #   @entries        7096576 ips
 #                   656 subnets
 #                   656 lines

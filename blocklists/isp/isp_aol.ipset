@@ -5,12 +5,12 @@
 #   @source         https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/isp/isp_aol.ipset
 #   @id             isp_aol_ipset
 #   @uuid           a97ea50e-08b1-3984-a6a4-2cce03dfc7dc
-#   @updated        Sun May 18 12:11:58 UTC 2025
+#   @updated        Mon May 19 00:21:53 UTC 2025
 #   @entries        106496 ips
 #                   3 subnets
 #                   2 lines
 #   @expires        7 days
-#   @category       Internet Service Provider (ISP)
+#   @category       
 #
 #   Historic AOL LLC (Internet Service Provider)
 #   Oath Holdings Inc.

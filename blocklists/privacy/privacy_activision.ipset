@@ -5,14 +5,14 @@
 #   @source         None
 #   @id             privacy_activision_ipset
 #   @uuid           37b918c0-6031-3140-93ce-dcbeedce6018
-#   @updated        Sun May 18 12:11:50 UTC 2025
+#   @updated        Mon May 19 00:21:45 UTC 2025
 #   @entries        4902 ips
 #                   47 subnets
 #                   49 lines
 #   @expires        6 hours
 #   @category       Uncategorized
 #
-#   No description provided
+
 # #
 
 62.161.152.112/28
