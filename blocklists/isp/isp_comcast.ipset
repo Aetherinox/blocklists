@@ -2,10 +2,10 @@
 #   🧱 Firewall Blocklist - blocklists/isp/isp_comcast.ipset
 #
 #   @url            https://raw.githubusercontent.com/Aetherinox/blocklists/main/blocklists/isp/isp_comcast.ipset
-#   @source         None
+#   @source         
 #   @id             isp_comcast_ipset
 #   @uuid           09606518-a08a-36f8-a001-3be67dedd4bd
-#   @updated        Tue May 20 00:33:44 UTC 2025
+#   @updated        Tue May 20 12:14:31 UTC 2025
 #   @entries        0 ips
 #                   0 subnets
 #                   120 lines
