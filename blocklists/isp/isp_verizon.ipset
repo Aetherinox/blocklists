@@ -5,14 +5,14 @@
 #   @source         None
 #   @id             isp_verizon_ipset
 #   @uuid           edc3bdf1-3ff0-3351-8660-c0c428c0cb0e
-#   @updated        Tue May 20 12:14:33 UTC 2025
+#   @updated        Wed May 21 00:21:40 UTC 2025
 #   @entries        0 ips
 #                   0 subnets
 #                   55 lines
 #   @asn            AS701, AS702, AS1321, AS2125, AS7021, 
 #                   AS8385, AS6066, AS6167, AS9055, AS12367, 
 #                   AS22521
-#   @expires        
+#   @expires        6 hours
 #   @category       Uncategorized
 #
 #   No description provided
