@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_kazakhstan_ipset
 #   @uuid           f232915e-8b68-33e1-8cb2-199e1d80904a
-#   @updated        Thu May 22 00:25:01 UTC 2025
+#   @updated        Fri May 23 00:24:35 UTC 2025
 #   @entries        3428680 ips
 #                   2601 subnets
 #                   2601 lines
