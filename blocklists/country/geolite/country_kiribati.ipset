@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_kiribati_ipset
 #   @uuid           ca0f8c07-eb02-38c2-963c-4b20c58af62e
-#   @updated        Fri May 23 00:24:34 UTC 2025
+#   @updated        Sat May 24 00:23:57 UTC 2025
 #   @entries        8049 ips
-#                   177 subnets
-#                   177 lines
+#                   179 subnets
+#                   179 lines
 #   @country        Kiribati (KI)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -103,6 +103,8 @@
 203.24.105.0/24
 203.24.107.0/24
 2001:470:24:4eb::/64
+2001:470:28:f1a::/64
+2001:470:dd6f::/48
 2001:df2:b280::/48
 2401:dfc0::/32
 2406:2d40:2640::/42
