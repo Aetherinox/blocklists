@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_estonia_ipset
 #   @uuid           99b13814-c63a-3a7e-a974-2556381ddecd
-#   @updated        Wed Jul  2 00:29:55 UTC 2025
+#   @updated        Thu Jul  3 00:25:17 UTC 2025
 #   @entries        1619728 ips
 #                   1643 subnets
 #                   1643 lines

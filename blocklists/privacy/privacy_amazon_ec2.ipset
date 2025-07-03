@@ -5,7 +5,7 @@
 #   @source         https://ip-ranges.amazonaws.com/ip-ranges.json
 #   @id             privacy_amazon_ec2_ipset
 #   @uuid           8d68f156-5dad-39a6-83ee-bd1a62e6fd09
-#   @updated        Wed Jul  2 12:13:25 UTC 2025
+#   @updated        Thu Jul  3 00:21:29 UTC 2025
 #   @entries        67275309 ips
 #                   1436 subnets
 #                   1436 lines
@@ -21,8 +21,8 @@
 #   blocklist allows you to stop any communication between your server, and the Amazon EC2 servers.
 # #
 
+1.178.4.0/24
 1.178.5.0/24
-1.178.6.0/24
 1.178.8.0/24
 1.178.9.0/24
 1.178.65.0/24
