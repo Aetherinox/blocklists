@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_morocco_ipset
 #   @uuid           2d514060-3224-3901-89db-35681ac18ff6
-#   @updated        Thu Jul  3 00:25:39 UTC 2025
+#   @updated        Fri Jul  4 00:25:14 UTC 2025
 #   @entries        12301284 ips
 #                   680 subnets
 #                   680 lines
