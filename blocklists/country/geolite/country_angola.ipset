@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_angola_ipset
 #   @uuid           2009e126-96e5-334f-a7d0-26f46ee87055
-#   @updated        Fri Jul  4 00:24:30 UTC 2025
+#   @updated        Sat Jul  5 00:25:07 UTC 2025
 #   @entries        1300966 ips
 #                   440 subnets
 #                   440 lines
