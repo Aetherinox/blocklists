@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_sweden_ipset
 #   @uuid           cd76e936-9059-35d7-9abd-5a4bd81ba4fe
-#   @updated        Sat Jul  5 00:26:01 UTC 2025
+#   @updated        Sun Jul  6 00:28:08 UTC 2025
 #   @entries        30861535 ips
 #                   14615 subnets
 #                   14615 lines
