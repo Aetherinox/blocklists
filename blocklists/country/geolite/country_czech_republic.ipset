@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_czech_republic_ipset
 #   @uuid           f4553f76-3492-3f53-a5e3-78af0767e8ee
-#   @updated        Wed Jul  9 00:25:31 UTC 2025
+#   @updated        Thu Jul 10 00:25:34 UTC 2025
 #   @entries        8674109 ips
 #                   5406 subnets
 #                   5406 lines
