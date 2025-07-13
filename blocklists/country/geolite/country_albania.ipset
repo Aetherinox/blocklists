@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_albania_ipset
 #   @uuid           860e720b-f03c-3b17-926a-1896e0f6131e
-#   @updated        Sat Jul 12 00:25:02 UTC 2025
+#   @updated        Sun Jul 13 00:28:26 UTC 2025
 #   @entries        338822 ips
 #                   856 subnets
 #                   856 lines
