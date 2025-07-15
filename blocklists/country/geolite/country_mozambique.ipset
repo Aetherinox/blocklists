@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_mozambique_ipset
 #   @uuid           31a60a96-0de7-300e-9d30-b943f0d9e702
-#   @updated        Mon Jul 14 00:28:12 UTC 2025
+#   @updated        Tue Jul 15 00:26:51 UTC 2025
 #   @entries        473257 ips
 #                   245 subnets
 #                   245 lines
