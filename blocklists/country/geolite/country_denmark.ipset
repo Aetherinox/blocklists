@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_denmark_ipset
 #   @uuid           4bd40831-2214-3fe2-b7fd-12405a9b7acc
-#   @updated        Wed Jul 16 00:26:47 UTC 2025
-#   @entries        12823333 ips
-#                   4809 subnets
-#                   4809 lines
+#   @updated        Thu Jul 17 00:26:29 UTC 2025
+#   @entries        12823341 ips
+#                   4811 subnets
+#                   4811 lines
 #   @country        Denmark (DK)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -337,6 +337,7 @@
 77.72.48.0/21
 77.75.80.0/21
 77.75.160.0/21
+77.77.136.56/29
 77.77.180.112/29
 77.77.184.216/29
 77.77.189.248/29
@@ -3467,6 +3468,7 @@
 2001:470:28:d0d::/64
 2001:470:28:d30::/64
 2001:470:28:d43::/64
+2001:470:28:d49::/64
 2001:470:28:d53::/64
 2001:470:28:d5e::/64
 2001:470:28:d64::/64

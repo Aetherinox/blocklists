@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_south_africa_ipset
 #   @uuid           7fffa352-18a6-3416-80fe-afa06cd065f3
-#   @updated        Wed Jul 16 00:27:52 UTC 2025
-#   @entries        28351751 ips
-#                   6122 subnets
-#                   6122 lines
+#   @updated        Thu Jul 17 00:27:34 UTC 2025
+#   @entries        28417543 ips
+#                   6124 subnets
+#                   6124 lines
 #   @country        South Africa (ZA)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -99,6 +99,7 @@
 15.230.72.64/26
 15.230.72.128/25
 15.230.138.0/24
+15.240.0.0/16
 15.248.2.68/30
 15.248.2.76/30
 15.248.2.84/30
@@ -2626,6 +2627,7 @@
 165.255.128.0/17
 166.85.0.0/16
 167.82.230.0/24
+167.103.181.0/24
 167.103.185.0/24
 167.103.194.0/24
 167.160.29.0/24
