@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_jamaica_ipset
 #   @uuid           362003c5-5010-36ff-b6c4-a48f2ca8ae3b
-#   @updated        Fri Jul 18 00:27:17 UTC 2025
+#   @updated        Sat Jul 19 00:26:41 UTC 2025
 #   @entries        283908 ips
 #                   445 subnets
 #                   445 lines
