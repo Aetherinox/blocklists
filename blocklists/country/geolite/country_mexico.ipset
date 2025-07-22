@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_mexico_ipset
 #   @uuid           b2d62b8f-013c-33a5-a6c6-6f405d3cae00
-#   @updated        Mon Jul 21 00:28:59 UTC 2025
+#   @updated        Tue Jul 22 00:27:37 UTC 2025
 #   @entries        30488727 ips
 #                   7159 subnets
 #                   7159 lines
