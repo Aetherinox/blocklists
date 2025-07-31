@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             continent_africa_ipset
 #   @uuid           4a0748a7-cdc8-3172-9f54-0d51413649ec
-#   @updated        Wed Jul 30 01:47:41 UTC 2025
+#   @updated        Thu Jul 31 01:47:14 UTC 2025
 #   @entries        154131119 ips
 #                   52097 subnets
 #                   52097 lines
