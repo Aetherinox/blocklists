@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_turks_caicos_islands_ipset
 #   @uuid           595a0a71-31a8-31f2-88f2-ff65a2a7e698
-#   @updated        Thu Jul 31 01:48:57 UTC 2025
+#   @updated        Fri Aug  1 01:57:36 UTC 2025
 #   @entries        17867 ips
 #                   151 subnets
 #                   151 lines

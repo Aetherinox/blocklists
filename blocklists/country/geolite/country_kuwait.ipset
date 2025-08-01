@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_kuwait_ipset
 #   @uuid           a3149a3b-3211-3a11-81f0-63d5d20882b2
-#   @updated        Thu Jul 31 01:48:31 UTC 2025
+#   @updated        Fri Aug  1 01:57:14 UTC 2025
 #   @entries        1927588 ips
 #                   1056 subnets
 #                   1056 lines
