@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_palau_ipset
 #   @uuid           1599150f-4c34-3b16-86a9-ef52eff39b9c
-#   @updated        Mon Aug  4 01:58:12 UTC 2025
+#   @updated        Tue Aug  5 01:50:40 UTC 2025
 #   @entries        10720 ips
 #                   141 subnets
 #                   141 lines
