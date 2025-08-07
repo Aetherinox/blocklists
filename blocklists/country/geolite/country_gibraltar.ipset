@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_gibraltar_ipset
 #   @uuid           3871faa6-6178-3e51-9a3e-4daf3337198a
-#   @updated        Wed Aug  6 01:48:21 UTC 2025
+#   @updated        Thu Aug  7 01:49:01 UTC 2025
 #   @entries        106455 ips
 #                   239 subnets
 #                   239 lines
