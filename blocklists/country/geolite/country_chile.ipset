@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_chile_ipset
 #   @uuid           d9f6ded5-1dd7-3d44-830a-adb2e08cde4c
-#   @updated        Thu Aug  7 01:48:46 UTC 2025
+#   @updated        Fri Aug  8 01:47:33 UTC 2025
 #   @entries        10783645 ips
 #                   2743 subnets
 #                   2743 lines
