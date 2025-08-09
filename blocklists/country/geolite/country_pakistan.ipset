@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_pakistan_ipset
 #   @uuid           bab5bec8-7ff1-350d-a209-46ce79b9138c
-#   @updated        Fri Aug  8 01:48:14 UTC 2025
-#   @entries        5798705 ips
-#                   1786 subnets
-#                   1786 lines
+#   @updated        Sat Aug  9 01:31:53 UTC 2025
+#   @entries        5802033 ips
+#                   1787 subnets
+#                   1787 lines
 #   @country        Pakistan (PK)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -31,6 +31,7 @@
 14.192.146.0/23
 14.192.148.0/22
 14.192.152.0/21
+16.90.105.0/24
 27.0.184.0/22
 27.54.120.0/22
 27.96.92.0/22
@@ -769,7 +770,7 @@
 139.5.116.0/22
 139.135.32.0/19
 139.190.0.0/18
-139.190.124.0/22
+139.190.112.0/20
 139.190.235.0/24
 139.190.236.0/22
 140.209.247.96/27

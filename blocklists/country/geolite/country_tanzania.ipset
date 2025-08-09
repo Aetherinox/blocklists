@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_tanzania_ipset
 #   @uuid           67b8d595-408f-3ac5-8a3d-35fdc886fbef
-#   @updated        Fri Aug  8 01:48:27 UTC 2025
+#   @updated        Sat Aug  9 01:32:12 UTC 2025
 #   @entries        1131863 ips
-#                   462 subnets
-#                   462 lines
+#                   463 subnets
+#                   463 lines
 #   @country        Tanzania (TZ)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -333,6 +333,7 @@
 2001:470:493a::/48
 2001:470:dd32::/48
 2001:470:ee49::/48
+2001:470:ff2a::/48
 2001:470:ffbe::/48
 2001:4258::/32
 2001:43a0::/32

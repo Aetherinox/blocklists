@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_timorleste_ipset
 #   @uuid           bfa1118c-5c38-3038-a67a-95e5831386c1
-#   @updated        Fri Aug  8 01:48:25 UTC 2025
-#   @entries        28711 ips
-#                   183 subnets
-#                   183 lines
+#   @updated        Sat Aug  9 01:32:09 UTC 2025
+#   @entries        29223 ips
+#                   184 subnets
+#                   184 lines
 #   @country        Timor-Leste (TL)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -85,6 +85,7 @@
 150.48.176.136/29
 150.48.176.144/28
 150.48.177.160/31
+150.228.168.0/23
 150.242.108.0/22
 154.18.202.0/23
 154.30.31.64/26
