@@ -90,8 +90,8 @@ jobs:
     blocklist-setup:
         name: >-
           📦 Setup
-        runs-on: ubuntu-latest
-        # runs-on: apollo-x64
+      # runs-on: ubuntu-latest
+        runs-on: apollo-x64
         timeout-minutes: 60
         steps:
 
@@ -136,8 +136,8 @@ jobs:
     blocklist-generate:
         name: >-
           📋 Generate › Blocklist
-        runs-on: ubuntu-latest
-        # runs-on: apollo-x64
+      # runs-on: ubuntu-latest
+        runs-on: apollo-x64
         timeout-minutes: 60
         needs: [ blocklist-setup ]
         steps:
@@ -532,8 +532,8 @@ jobs:
     blocklist-commit:
         name: >-
           📋 Commit
-        runs-on: ubuntu-latest
-        # runs-on: apollo-x64
+      # runs-on: ubuntu-latest
+        runs-on: apollo-x64
         timeout-minutes: 60
         needs: [ blocklist-setup, blocklist-generate ]
         steps:
