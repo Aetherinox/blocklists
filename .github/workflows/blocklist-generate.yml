@@ -219,6 +219,8 @@ jobs:
         runs-on: apollo-x64
         timeout-minutes: 60
         needs: [ blocklist-setup ]
+        outputs:
+            artifact-name: ${{ steps.zip.outputs.artifact-name }}
         steps:
 
             # #
@@ -689,8 +691,9 @@ jobs:
             # #
 
             - name: 'SSH › Zip Artifacts'
+              id: generate_artifact_zip
               run: |
-                  ARTIFACT_NAME="artifacts_${{ github.run_id }}.zip"
+                  ARTIFACT_NAME="artifacts_${{ github.ref_name }}_${{ github.run_id }}.zip"
                   echo "ARTIFACT_NAME=$ARTIFACT_NAME" >> $GITHUB_ENV
                   zip -r "$ARTIFACT_NAME" ./*
 
@@ -718,13 +721,13 @@ jobs:
             #   Generate › Artifact › Upload
             # #
 
-            - name: "🎁 Generate › Upload Artifact"
-              id: task_blocklist_generate_artifact_upload
-              uses: actions/upload-artifact@v4
-              with:
-                  name: blocklist-latest
-                  path: ./
-                  retention-days: 1
+          #  - name: "🎁 Generate › Upload Artifact"
+          #    id: task_blocklist_generate_artifact_upload
+          #    uses: actions/upload-artifact@v4
+          #    with:
+          #        name: blocklist-latest
+          #        path: ./
+          #        retention-days: 1
 
     # #
     #   Job › Commit
@@ -743,22 +746,50 @@ jobs:
             #   Generate › Checkout
             # #
 
-            - name: "☑️ Commit › Checkout"
-              id: task_blocklist_master_checkout
+            - name: '☑️ Commit › Checkout'
               uses: actions/checkout@v4
               with:
                   fetch-depth: 0
 
             # #
+            #   Generate › Artifact › Setup SSH
+            # #
+
+            - name: '🎁 Commit › Setup SSH Artifact'
+              run: |
+                  mkdir -p ~/.ssh
+                  echo "${{ secrets.SFTP_GITHUB_SSH_PRIVATE_KEY }}" > ~/.ssh/github_sftp_key
+                  chmod 600 ~/.ssh/github_sftp_key
+
+            # #
             #   Generate › Artifact › Download
             # #
 
-            - name: "🎁 Commit › Download Artifact"
-              id: task_commit_artifact_download
-              uses: actions/download-artifact@v4
-              with:
-                  name: blocklist-latest
-                  path: ./
+            - name: '🎁 Commit › Download Artifact'
+              run: |
+                  ARTIFACT_NAME="${{ needs.blocklist-generate.outputs.artifact-name }}"
+                  echo "Downloading $ARTIFACT_NAME"
+
+                  sftp -P ${{ secrets.SFTP_SERVER_PORT }} \
+                      -i ~/.ssh/github_sftp_key \
+                      -o StrictHostKeyChecking=no \
+                      github@${{ secrets.SFTP_SERVER_IP }} <<EOF
+                  get $ARTIFACT_NAME
+                  bye
+                  EOF
+
+                  unzip "$ARTIFACT_NAME"
+
+            # #
+            #   Generate › Artifact › Download
+            # #
+
+        #    - name: "🎁 Commit › Download Artifact"
+        #      id: task_commit_artifact_download
+        #      uses: actions/download-artifact@v4
+        #      with:
+        #          name: blocklist-latest
+        #          path: ./
 
             # #
             #   Commit › Precommit
