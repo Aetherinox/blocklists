@@ -220,7 +220,7 @@ jobs:
         timeout-minutes: 60
         needs: [ blocklist-setup ]
         outputs:
-            artifact-name: ${{ steps.zip.outputs.artifact-name }}
+            artifact-name: ${{ steps.generate_artifact_zip.outputs.artifact-name }}
         steps:
 
             # #
