@@ -685,14 +685,30 @@ jobs:
                   tree -I ./
 
             # #
-            #   Generate › SFTP Connection for Github Artifacts
+            #   Generate › SFTP / SSH › Upload Artifact
             # #
 
-            - name: 'Set up SSH key'
+            - name: 'SSH › Zip Artifacts'
               run: |
+                  zip -r artifacts.zip ./*
+                  ssh -i ~/.ssh/github_sftp_key -o StrictHostKeyChecking=no github@${{ secrets.SFTP_SERVER_IP }} 'echo "Connection Successful"'
+
+            # #
+            #   Generate › SFTP / SSH › Setup SSH Key
+            # #
+
+            - name: 'SSH › Upload Artifacts'
+              run: |
+                  # Make sure the .ssh folder exists
                   mkdir -p ~/.ssh
                   echo "${{ secrets.SFTP_GITHUB_SSH_PRIVATE_KEY }}" > ~/.ssh/github_sftp_key
                   chmod 600 ~/.ssh/github_sftp_key
+
+                  # Upload artifacts.zip to the server
+                  sftp -i ~/.ssh/github_sftp_key -o StrictHostKeyChecking=no github@${{ secrets.SFTP_SERVER_IP }} <<EOF
+                  put artifacts.zip
+                  bye
+                  EOF
 
             # #
             #   Generate › Artifact › Upload
