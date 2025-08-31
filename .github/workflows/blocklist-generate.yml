@@ -695,7 +695,7 @@ jobs:
               run: |
                   ARTIFACT_NAME="artifacts_${{ github.ref_name }}_${{ github.run_id }}.zip"
                   echo "ARTIFACT_NAME=$ARTIFACT_NAME" >> $GITHUB_ENV
-                  echo "ARTIFACT_NAME=$ARTIFACT_NAME" >> $GITHUB_OUTPUT
+                  echo "artifact-name=$ARTIFACT_NAME" >> $GITHUB_OUTPUT
                   zip -r "$ARTIFACT_NAME" ./*
 
             # #
