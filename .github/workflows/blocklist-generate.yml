@@ -703,10 +703,10 @@ jobs:
                   echo "${{ secrets.SFTP_GITHUB_SSH_PRIVATE_KEY }}" > ~/.ssh/github_sftp_key
                   chmod 600 ~/.ssh/github_sftp_key
 
-                  ssh -i ~/.ssh/github_sftp_key -o StrictHostKeyChecking=no github@${{ secrets.SFTP_SERVER_IP }} 'echo "Connection Successful"'
+                  ssh -p ${{ secrets.SFTP_SERVER_PORT }} -i ~/.ssh/github_sftp_key -o StrictHostKeyChecking=no github@${{ secrets.SFTP_SERVER_IP }} 'echo "Connection Successful"'
                   
                   # Upload artifacts.zip to the server
-                  sftp -i ~/.ssh/github_sftp_key -o StrictHostKeyChecking=no github@${{ secrets.SFTP_SERVER_IP }} <<EOF
+                  sftp -P ${{ secrets.SFTP_SERVER_PORT }} -i ~/.ssh/github_sftp_key -o StrictHostKeyChecking=no github@${{ secrets.SFTP_SERVER_IP }} <<EOF
                   put artifacts.zip
                   bye
                   EOF
