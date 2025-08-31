@@ -695,6 +695,7 @@ jobs:
               run: |
                   ARTIFACT_NAME="artifacts_${{ github.ref_name }}_${{ github.run_id }}.zip"
                   echo "ARTIFACT_NAME=$ARTIFACT_NAME" >> $GITHUB_ENV
+                  echo "ARTIFACT_NAME=$ARTIFACT_NAME" >> $GITHUB_OUTPUT
                   zip -r "$ARTIFACT_NAME" ./*
 
             # #
@@ -779,6 +780,7 @@ jobs:
                   EOF
 
                   unzip "$ARTIFACT_NAME"
+                  rm -f "$ARTIFACT_NAME"
 
             # #
             #   Generate › Artifact › Download
@@ -840,3 +842,17 @@ jobs:
                   commit_author: "${{ steps.task_commit_gpg.outputs.name }} <${{ steps.task_commit_gpg.outputs.email }}>"
                   commit_user_name: ${{ steps.task_commit_gpg.outputs.name }}
                   commit_user_email: ${{ steps.task_commit_gpg.outputs.email }}
+
+            # #
+            #   Commit › Clean up Artifacts
+            #   
+            #   Left-behind artifacts cleaned up after 5 days
+            # #
+
+            - name: '🎁 Commit › Cleanup Old Artifacts'
+              run: |
+                  ssh -p ${{ secrets.SFTP_SERVER_PORT }} \
+                  -i ~/.ssh/github_sftp_key \
+                  -o StrictHostKeyChecking=no \
+                  github@${{ secrets.SFTP_SERVER_IP }} \
+                  "find ~/public_html -name 'artifacts_*.zip' -type f -mtime +5 -delete"
