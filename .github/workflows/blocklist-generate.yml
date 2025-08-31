@@ -691,7 +691,6 @@ jobs:
             - name: 'SSH › Zip Artifacts'
               run: |
                   zip -r artifacts.zip ./*
-                  ssh -i ~/.ssh/github_sftp_key -o StrictHostKeyChecking=no github@${{ secrets.SFTP_SERVER_IP }} 'echo "Connection Successful"'
 
             # #
             #   Generate › SFTP / SSH › Setup SSH Key
@@ -704,6 +703,8 @@ jobs:
                   echo "${{ secrets.SFTP_GITHUB_SSH_PRIVATE_KEY }}" > ~/.ssh/github_sftp_key
                   chmod 600 ~/.ssh/github_sftp_key
 
+                  ssh -i ~/.ssh/github_sftp_key -o StrictHostKeyChecking=no github@${{ secrets.SFTP_SERVER_IP }} 'echo "Connection Successful"'
+                  
                   # Upload artifacts.zip to the server
                   sftp -i ~/.ssh/github_sftp_key -o StrictHostKeyChecking=no github@${{ secrets.SFTP_SERVER_IP }} <<EOF
                   put artifacts.zip
