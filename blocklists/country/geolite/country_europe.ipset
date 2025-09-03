@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_europe_ipset
 #   @uuid           c4472bbd-f795-3479-b208-a1f9c7c979b8
-#   @updated        Mon 01 Sep 2025 01:47:36 AM UTC
+#   @updated        Wed 03 Sep 2025 01:24:36 AM UTC
 #   @entries        179,497 ips
-#                   563 subnets
-#                   563 lines
+#                   564 subnets
+#                   564 lines
 #   @country        Europe (EU)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -494,6 +494,7 @@
 2001:470:28:b99::/64
 2001:470:36:312::/64
 2001:470:36:453::/64
+2001:470:36:529::/64
 2001:470:67:48::/64
 2001:470:6f:3dc::/64
 2001:470:6f:415::/64

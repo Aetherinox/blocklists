@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_bhutan_ipset
 #   @uuid           ed91133f-1493-30e0-ac7c-8e8b0ab3b0d9
-#   @updated        Mon 01 Sep 2025 01:47:15 AM UTC
-#   @entries        52,446 ips
-#                   245 subnets
-#                   245 lines
+#   @updated        Wed 03 Sep 2025 01:24:05 AM UTC
+#   @entries        52,190 ips
+#                   244 subnets
+#                   244 lines
 #   @country        Bhutan (BT)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -26,7 +26,6 @@
 5.62.62.38/31
 5.182.196.0/24
 8.20.124.0/24
-14.1.76.0/24
 36.50.37.0/24
 43.229.124.0/22
 43.230.208.0/24
