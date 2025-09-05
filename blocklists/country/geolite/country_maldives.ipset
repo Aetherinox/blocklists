@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_maldives_ipset
 #   @uuid           ccda0536-ca04-3cac-8990-d43feabfbd13
-#   @updated        Thu 04 Sep 2025 01:28:31 AM UTC
+#   @updated        Fri 05 Sep 2025 01:33:48 AM UTC
 #   @entries        104,152 ips
 #                   1,713 subnets
 #                   1,713 lines
