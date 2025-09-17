@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_norfolk_island_ipset
 #   @uuid           ea4afea7-f3db-35ac-bd2f-719d44c45ab8
-#   @updated        Fri 05 Sep 2025 01:33:55 AM UTC
-#   @entries        897 ips
-#                   123 subnets
-#                   123 lines
+#   @updated        Wed 17 Sep 2025 01:29:20 AM UTC
+#   @entries        903 ips
+#                   129 subnets
+#                   129 lines
 #   @country        Norfolk Island (NF)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -34,6 +34,8 @@
 104.28.35.80/31
 104.28.90.76/31
 104.28.125.80/31
+104.28.181.94/31
+104.28.181.96/30
 104.28.213.137/32
 104.28.213.138/31
 104.28.213.140/31
@@ -143,3 +145,7 @@
 2a11:a687:4000::/36
 2a13:a5c7:25a3::/48
 2a13:a5c7:25ff:a200::/56
+2a14:7581:b12:a300::/56
+2a14:7581:b13:a300::/56
+2a14:7581:b14:a300::/56
+2a14:7581:b15:a300::/56
