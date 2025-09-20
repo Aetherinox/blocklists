@@ -5,7 +5,7 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_guam_ipset
 #   @uuid           2e4478a5-74b2-359a-821a-39a5af063a94
-#   @updated        Thu 18 Sep 2025 05:21:49 AM UTC
+#   @updated        Sat 20 Sep 2025 01:22:28 AM UTC
 #   @entries        224,966 ips
 #                   256 subnets
 #                   256 lines
