@@ -5,10 +5,10 @@
 #   @source         None
 #   @id             isp_comcast_ipset
 #   @uuid           09606518-a08a-36f8-a001-3be67dedd4bd
-#   @updated        Mon 29 Sep 2025 12:52:49 PM UTC
-#   @entries        73,703,704 ips
-#                   1,920 subnets
-#                   2,022 lines
+#   @updated        Tue 30 Sep 2025 01:20:38 AM UTC
+#   @entries        73,703,960 ips
+#                   1,921 subnets
+#                   2,023 lines
 #   @asn            AS7922, AS7015, AS36732, AS36196, AS33651, 
 #                   AS33650, AS33542, AS33491, AS33490, AS33489, 
 #                   AS33351, AS33287, AS23266, AS23253, AS22909, 
@@ -1748,6 +1748,7 @@
 #   AS20214
 # #
 
+50.150.146.0/24
 64.139.77.0/24
 65.34.32.0/22
 65.34.36.0/22
