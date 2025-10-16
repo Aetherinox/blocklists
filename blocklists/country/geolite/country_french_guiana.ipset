@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_french_guiana_ipset
 #   @uuid           063f08b4-2ac3-31da-bf2c-2ff3e7a9b3e5
-#   @updated        Fri 03 Oct 2025 01:22:46 AM UTC
-#   @entries        126,766 ips
-#                   203 subnets
-#                   203 lines
+#   @updated        Thu 16 Oct 2025 12:29:03 AM UTC
+#   @entries        127,278 ips
+#                   201 subnets
+#                   201 lines
 #   @country        French Guiana (GF)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -20,8 +20,6 @@
 #       - https://dev.maxmind.com/geoip/docs/databases/#client-apis
 # #
 
-5.102.73.0/24
-5.102.74.0/24
 5.102.79.0/24
 37.35.105.206/31
 45.169.164.0/22
@@ -124,7 +122,7 @@
 172.226.10.128/28
 185.21.213.0/24
 186.2.244.0/22
-188.115.80.0/22
+188.115.80.0/21
 193.84.183.80/28
 193.248.17.0/24
 193.248.64.0/20
