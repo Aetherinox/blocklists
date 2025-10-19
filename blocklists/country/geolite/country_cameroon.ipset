@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_cameroon_ipset
 #   @uuid           f7c2387c-f16f-35ec-bd8a-0f468b281189
-#   @updated        Thu 16 Oct 2025 12:28:32 AM UTC
+#   @updated        Sun 19 Oct 2025 12:27:56 AM UTC
 #   @entries        606,300 ips
-#                   329 subnets
-#                   329 lines
+#                   333 subnets
+#                   333 lines
 #   @country        Cameroon (CM)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -217,10 +217,14 @@
 204.195.243.96/31
 204.195.243.98/32
 2001:470:d:c25::/64
+2001:470:24:675::/64
 2001:470:36:b4::/64
+2001:470:36:64d::/64
 2001:470:71:23a::/64
 2001:470:71:51a::/64
 2001:470:1f23:138::/64
+2001:470:eeac::/48
+2001:470:fef5::/48
 2001:4268::/32
 2001:43f8:d70::/47
 2001:43f8:1470::/48

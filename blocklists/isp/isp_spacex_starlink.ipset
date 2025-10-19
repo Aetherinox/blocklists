@@ -5,10 +5,10 @@
 #   @source         None
 #   @id             isp_spacex_starlink_ipset
 #   @uuid           1ccb3b23-6ce5-367d-b5f9-e0af72b90fba
-#   @updated        Thu 16 Oct 2025 12:40:54 PM UTC
+#   @updated        Sun 19 Oct 2025 12:23:45 AM UTC
 #   @entries        1,438,464 ips
-#                   2,948 subnets
-#                   2,965 lines
+#                   2,956 subnets
+#                   2,973 lines
 #   @asn            AS14593, AS397763, AS27277, AS142475
 #   @expires        6 hours
 #   @category       Uncategorized
@@ -2265,6 +2265,14 @@
 2605:59c0:700d::/48
 2605:59c0:700e::/48
 2605:59c6::/38
+2605:59c6::/40
+2605:59c6:100::/40
+2605:59c6:200::/40
+2605:59c6:300::/40
+2605:59c6:400::/40
+2605:59c6:500::/40
+2605:59c6:600::/40
+2605:59c6:700::/40
 2605:59c7:201b::/48
 2605:59c7:201c::/48
 2605:59c7:201d::/48

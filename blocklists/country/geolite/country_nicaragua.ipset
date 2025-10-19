@@ -5,10 +5,10 @@
 #   @source         http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 #   @id             country_nicaragua_ipset
 #   @uuid           780dbe2e-b3e5-3358-aa4b-377ebd887cda
-#   @updated        Thu 16 Oct 2025 12:30:04 AM UTC
+#   @updated        Sun 19 Oct 2025 12:29:37 AM UTC
 #   @entries        441,825 ips
-#                   341 subnets
-#                   341 lines
+#                   344 subnets
+#                   344 lines
 #   @country        Nicaragua (NI)
 #   @expires        24 hours
 #   @category       Geolocation
@@ -238,11 +238,14 @@
 209.161.125.0/24
 216.194.96.80/28
 2001:470:8:169::/64
+2001:470:19:11e::/64
+2001:470:24:678::/64
 2001:470:36:436::/64
 2001:470:1f1b:3fe::/64
 2001:470:1f1d:8c6::/64
 2001:470:1f29:303::/64
 2001:470:1f2b:19::/64
+2001:470:f8b6::/48
 2001:3786:2929:300::/56
 2001:4b28:3700::/40
 2600:70ff:d069::/48
